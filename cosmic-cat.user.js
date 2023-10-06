@@ -1,17 +1,17 @@
 // ==UserScript==
-// @name         Cosmic Cat
+// @name         Cosmic Cat Reuploaded
 // @namespace    https://www.youtube.com/*
-// @version      0.6.58
+// @version      1.0
 // @description  Broadcast Yourself
 // @author       Thistle Café, Cosmic Cat Maintainers
-// @updateURL    https://raw.githubusercontent.com/thistlecafe/cosmic-cat/main/cosmic-cat.user.js
-// @downloadURL  https://raw.githubusercontent.com/thistlecafe/cosmic-cat/main/cosmic-cat.user.js
+// @updateURL    https://raw.githubusercontent.com/ToniGamer123/Cosmic-Cat-Reuploaded/main/cosmic-cat.user.js
+// @downloadURL  https://raw.githubusercontent.com/ToniGamer123/Cosmic-Cat-Reuploaded/main/cosmic-cat.user.js
 // @match        https://www.youtube.com/*
 // @exclude      https://www.youtube.com/embed/*
 // @exclude      https://www.youtube.com/live_chat*
-// @icon         https://github.com/thistlecafe/cosmic-cat-branding/raw/main/icon.png
-// @require      https://github.com/thistlecafe/cosmic-cat/raw/main/modules/yabai_component.js
-// @require      https://github.com/thistlecafe/cosmic-cat/raw/main/modules/open_uix_components.js
+// @icon         https://github.com/ToniGamer123/Cosmic-Cat-Reuploaded/main/icon.png
+// @require      https://github.com/ToniGamer123/Cosmic-Cat-Reuploaded/raw/main/modules/yabai_component.js
+// @require      https://github.com/ToniGamer123/Cosmic-Cat-Reuploaded/raw/main/modules/open_uix_components.js
 // @require      https://code.jquery.com/jquery-3.6.1.min.js
 // @grant unsafeWindow
 // @grant GM_addStyle
@@ -2475,8 +2475,9 @@ ${document.cosmicCat.Template.Buttons.addTo(data.id)}
 </ul>
 </div>
 </div>
-<div id="disclaimer">Cosmic Cat v${GM_info.script.version}
-
+<div id="disclaimer">Cosmic Cat Reuploaded v${GM_info.script.version}
+Reuploaded by Toni
+___________________________________
 Made with ♥ by Thistle Café -
 and its contributors.</div>
 </div>
@@ -2546,7 +2547,7 @@ ${options}
 Channel revision: <select class="cosmic-cat-settings" id="channelMode" data-action="toggleChannelMode" data-storage="channel_mode" title="Set channel layout">
 <option value="3">3.0</option>
 <option value="2">2.0</option>
-<option value="1" disabled="">1.0</option>
+<option value="1">1.0 [Unstable]</option>
 </select>
 </div>
 </div>
@@ -2564,7 +2565,7 @@ Channel revision: <select class="cosmic-cat-settings" id="channelMode" data-acti
 <li>
 <div class="feed-item-container">
 <div class="feed-item-main">
-<label title="Enable/disable iframe player">iFrame Player: <input type="checkbox" ${document.cosmicCat.Storage.get("iframe").value == "1" ? "checked" : ""} id="iframe" data-storage="iframe" class="cosmic-cat-settings ios-switch" /><div class="switch"></div></label>
+<label title="Enable/disable iframe player">HTML5 Player: <input type="checkbox" ${document.cosmicCat.Storage.get("iframe").value == "1" ? "checked" : ""} id="iframe" data-storage="iframe" class="cosmic-cat-settings ios-switch" /><div class="switch"></div></label>
 </div>
 </div>
 </li>
@@ -2578,7 +2579,9 @@ Channel revision: <select class="cosmic-cat-settings" id="channelMode" data-acti
 <div class="feed-container">
 <div class="feed-page">
 <pre style="text-align: center;overflow-y: auto;">
-<h1>Cosmic Cat v${GM_info.script.version}</h1>
+<h1>Cosmic Cat Reuploaded v${GM_info.script.version}</h1>
+<h3>==== Toni ====</h3>
+cool guy that reuploaded this
 <h3>==== Thistle Café ====</h3>
 Lead Developer -
 <a href="https://github.com/xEm1r1Fl0areax" target="_blank">Emiri Floarea</a>
