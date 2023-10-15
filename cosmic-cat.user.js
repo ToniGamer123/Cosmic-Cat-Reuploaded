@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Cosmic Cat Reuploaded
 // @namespace    https://www.youtube.com/*
-// @version      1.1
+// @version      0.1
 // @description  Broadcast Yourself
 // @author       Toni, Thistle Café, Cosmic Cat Maintainers
 // @updateURL    https://raw.githubusercontent.com/ToniGamer123/Cosmic-Cat-Reuploaded/main/cosmic-cat.user.js
@@ -7046,21 +7046,6 @@ document.cosmicCat.Utils.waitForElm("ytd-app").then(async (e) => {
         document.querySelector("head").append(p);
     }
 
-    // Check for updates here, because Tampermonkey's "Auto-updater" is SHIT!
-    fetch("https://raw.githubusercontent.com/ToniGamer123/Cosmic-Cat-Reuploaded/main/cosmic-cat.user.js").then(a => a.text()).then(a => {
-        var b = (a.substr(parseInt(a.search("@version") + 14)).substr(0, parseInt(a.search("@version") - 86)));
-        (GM_info.script.version !== b) && (update = !0);
-
-        console.debug("[Updater] Current version:", GM_info.script.version, "|", "GitHub version:", b);
-    });
-
-    fetch("https://raw.githubusercontent.com/thistlecafe/cosmic-cat-i18n/main/version.json").then(a => a.json()).then(a => {
-        (document.cosmicCat.Storage.get("storageVer").value !== a.version) && (
-            document.cosmicCat.Storage.add("storageVer", a.version),
-            _i18n().setTranslation(document.cosmicCat.Storage.get("lang").value)
-        )
-    }).catch(err => console.error(err));
-
     setTimeout(async function () {
         if (!document.cosmicCat.Account.isLoggedIn()) {
             await document.cosmicCat.Account.fetch();
@@ -7099,9 +7084,7 @@ ${OBJ_FOOTER}
 
         document.querySelector("body").setAttribute("ythtmlloaded", "");
 
-       // document.cosmicCat.Utils.waitForElm2().then(() => {
-        //    (!0 === update) && document.cosmicCat.Alert(0, "An update is available to Cosmic Cat Reuploaded! <a href=\"https://raw.githubusercontent.com/ToniGamer123/Cosmic-Cat-Reuploaded/main/cosmic-cat.user.js\">Click to install it.</a>");
-       // });
+       // document.cosmicCat.Alert(0, "I Won't be updating this! This is just a reupload.</a>");
 
         try {
             yt.www.masthead.searchbox.init();
