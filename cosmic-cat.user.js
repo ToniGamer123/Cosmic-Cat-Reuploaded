@@ -6672,7 +6672,7 @@ margin-left:16px
                 } catch (err) {
                     // I love inconsistent data <3
                     console.error("[Search] Failed to parse search results.\n", err, "\nData appears to be inconsistent. fuck u YT.");
-                    document.cosmicCat.Alert(2, "Cosmic Cat Error: Failed to parse search results. Check console for more details.")
+                    document.cosmicCat.Alert(2, "Extension Error: Failed to parse search results. Check console for more details.")
                 }
 
                 var a = ytInitialData.header.searchHeaderRenderer.searchFilterButton.buttonRenderer.command.openPopupAction.popup.searchFilterOptionsDialogRenderer.groups;
@@ -7100,7 +7100,7 @@ ${OBJ_FOOTER}
         document.querySelector("body").setAttribute("ythtmlloaded", "");
 
         document.cosmicCat.Utils.waitForElm2().then(() => {
-            (!0 === update) && document.cosmicCat.Alert(0, "An update is available to Cosmic Cat! <a href=\"https://raw.githubusercontent.com/thistlecafe/cosmic-cat/main/cosmic-cat.user.js\">Click to install it.</a>");
+            (!0 === update) && document.cosmicCat.Alert(0, "An update is available to Cosmic Cat Reuploaded! <a href=\"https://raw.githubusercontent.com/ToniGamer123/Cosmic-Cat-Reuploaded/main/cosmic-cat.user.js\">Click to install it.</a>");
         });
 
         try {
