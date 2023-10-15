@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Cosmic Cat Reuploaded
 // @namespace    https://www.youtube.com/*
-// @version      1.0
+// @version      1.1
 // @description  Broadcast Yourself
 // @author       Toni, Thistle Café, Cosmic Cat Maintainers
 // @updateURL    https://raw.githubusercontent.com/ToniGamer123/Cosmic-Cat-Reuploaded/main/cosmic-cat.user.js
