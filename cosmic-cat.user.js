@@ -7047,7 +7047,7 @@ document.cosmicCat.Utils.waitForElm("ytd-app").then(async (e) => {
     }
 
     // Check for updates here, because Tampermonkey's "Auto-updater" is SHIT!
-    fetch("https://raw.githubusercontent.com/thistlecafe/cosmic-cat/main/cosmic-cat.user.js").then(a => a.text()).then(a => {
+    fetch("https://raw.githubusercontent.com/ToniGamer123/Cosmic-Cat-Reuploaded/main/cosmic-cat.user.js").then(a => a.text()).then(a => {
         var b = (a.substr(parseInt(a.search("@version") + 14)).substr(0, parseInt(a.search("@version") - 86)));
         (GM_info.script.version !== b) && (update = !0);
 
