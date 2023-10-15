@@ -3,7 +3,7 @@
 // @namespace    https://www.youtube.com/*
 // @version      1.0
 // @description  Broadcast Yourself
-// @author       Thistle Café, Cosmic Cat Maintainers
+// @author       Toni, Thistle Café, Cosmic Cat Maintainers
 // @updateURL    https://raw.githubusercontent.com/ToniGamer123/Cosmic-Cat-Reuploaded/main/cosmic-cat.user.js
 // @downloadURL  https://raw.githubusercontent.com/ToniGamer123/Cosmic-Cat-Reuploaded/main/cosmic-cat.user.js
 // @match        https://www.youtube.com/*
