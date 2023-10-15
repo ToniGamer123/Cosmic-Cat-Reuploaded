@@ -7099,9 +7099,9 @@ ${OBJ_FOOTER}
 
         document.querySelector("body").setAttribute("ythtmlloaded", "");
 
-        document.cosmicCat.Utils.waitForElm2().then(() => {
+        <!--document.cosmicCat.Utils.waitForElm2().then(() => {
             (!0 === update) && document.cosmicCat.Alert(0, "An update is available to Cosmic Cat Reuploaded! <a href=\"https://raw.githubusercontent.com/ToniGamer123/Cosmic-Cat-Reuploaded/main/cosmic-cat.user.js\">Click to install it.</a>");
-        });
+        });-->
 
         try {
             yt.www.masthead.searchbox.init();
