@@ -2458,7 +2458,7 @@ ${document.cosmicCat.Template.Buttons.addTo(data.id)}
 <img class="system-icon system" src="//s.ytimg.com/yt/img/pixel-vfl3z5WfW.gif" alt="">
 </span><span class="display-name">Channel</span>
 </a>
-<li class="guide-item-container">
+<!--<li class="guide-item-container">
 <a class="guide-item" data-feed-name="language">
 <span class="thumb">
 <img class="system-icon system" src="//s.ytimg.com/yt/img/pixel-vfl3z5WfW.gif" alt="">
@@ -2471,7 +2471,7 @@ ${document.cosmicCat.Template.Buttons.addTo(data.id)}
 <img class="system-icon system" src="//s.ytimg.com/yt/img/pixel-vfl3z5WfW.gif" alt="">
 </span><span class="display-name">Player</span>
 </a>
-</li>
+</li>-->
 <li class="guide-item-container">
 <a class="guide-item" data-feed-name="credits">
 <span class="thumb">
