@@ -3227,7 +3227,9 @@ ${data.primary.title}
                 videoCon: () => {
                     return `<div id="watch-video-container">
 <div id="watch-video">
+<div id="watch-player" class="flash-player">
 <iframe href="//www.youtube.com/watch?v=1${data.id}" data-videoid="1${data.id}" class="embedded-video-large" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Embed videos and playlists" width="640" height="400" src="https://www.youtube.com/embed/1${data.id}?autoplay=1&amp;controls=2&amp;rel=0&amp;widgetid=1" id="widget2"></iframe>
+</div>
 </div>
 </div>`;
                 },
