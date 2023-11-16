@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Cosmic Cat Reuploaded
 // @namespace    https://www.youtube.com/*
-// @version      0.1
+// @version      1.0
 // @description  Broadcast Yourself
 // @author       Toni, Thistle Café, Cosmic Cat Maintainers
 // @updateURL    https://raw.githubusercontent.com/ToniGamer123/Cosmic-Cat-Reuploaded/main/cosmic-cat.user.js
@@ -2457,6 +2457,12 @@ ${document.cosmicCat.Template.Buttons.addTo(data.id)}
 <img class="system-icon system" src="//s.ytimg.com/yt/img/pixel-vfl3z5WfW.gif" alt="">
 </span><span class="display-name">Channel</span>
 </a>
+<li class="guide-item-container">
+<a class="guide-item" data-feed-name="language">
+<span class="thumb">
+<img class="system-icon system" src="//s.ytimg.com/yt/img/pixel-vfl3z5WfW.gif" alt="">
+</span><span class="display-name">Language [Beta]</span>
+</a>
 </li>
 <li class="guide-item-container">
 <a class="guide-item" data-feed-name="player">
@@ -2556,14 +2562,14 @@ Channel revision: <select class="cosmic-cat-settings" id="channelMode" data-acti
 </div>`;
                 },
                 Language: () => {
-                    return `<div id="feed-main-channel" class="individual-feed hid">
+                    return `<div id="feed-main-language" class="individual-feed hid">
 <div class="feed-container">
 <div class="feed-page">
 <ul class="array" style="user-select: none;">
 <li>
 <div class="feed-item-container">
 <div class="feed-item-main">
-Language: <select class="cosmic-cat-settings" id="language" data-action="toggleLanguage" data-storage="channel_mode" title="Set Language">
+Language: <select class="cosmic-cat-settings" id="language" data-action="toggleLanguage" data-storage="language" title="Set Language">
 <option value="en">English</option>
 <option value="hr">Croatian</option>
 <option value="pl">Polish</option>
@@ -2633,7 +2639,7 @@ StackOverflow Code Solutions -
 <a href="https://github.com/VexorionReal" target="_blank">Vexorion Real (Polish)</a>
 
 
-View the rest on Github: <a href="https://github.com/thistlecafe/cosmic-cat">thistlecafe/cosmic-cat</a>
+View the rest on Github: <a href="https://github.com/ToniGamer123/Cosmic-Cat-Reuploaded">ToniGamer123/Cosmic-Cat-Reuploaded</a>
 
 All source code is available in the public domain under The Unlicense.
 </pre>
@@ -5995,7 +6001,7 @@ margin-left:16px
                 assets: {
                     css: "//s.ytimg.com/yts/cssbin/www-player-vfluwFMix.css",
                     js: "//s.ytimg.com/yts/jsbin/html5player-en_US-vfln6g5Eq/html5player.js",
-                    html: "//cdn.discordapp.com/attachments/996734304560353332/1018500227629592656/html5_player_template.html"
+                    html: "///github.com/ToniGamer123/Cosmic-Cat-Reuploaded/html5_player_template.html"
                 },
                 attrs: {
                     id: "movie_player"
