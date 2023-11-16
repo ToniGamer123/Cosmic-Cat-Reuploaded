@@ -18,7 +18,7 @@ You can access Cosmic Cat settings through the masthead or directly from this li
 - Get **Tampermonkey** for your browser: https://www.tampermonkey.net<br/>
 - Click here to open up the install prompt (requires **Tampermonkey**): [cosmic-cat.user.js](https://github.com/ToniGamer123/Cosmic-Cat-Reuploaded/raw/main/cosmic-cat.user.js)
 
-## Acknowledgements/Credits
+## Language/Credits
 | Language | Author |
 | ------------- | ------------- |
 | English | [YouTube] |
