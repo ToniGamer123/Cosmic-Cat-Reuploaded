@@ -3227,7 +3227,7 @@ ${data.primary.title}
                 videoCon: () => {
                     return `<div id="watch-video-container">
 <div id="watch-video">
-<video style="background-color: black;" controls width="640" height="400" src="https://www.youtube.com/watch?v=1${data.id}">      
+<video style="background-color: black;" controls width="640" height="400"><source src="https://www.youtube.com/watch?v=1${data.id}"></video>      
 </div>
 </div>`;
                 },
