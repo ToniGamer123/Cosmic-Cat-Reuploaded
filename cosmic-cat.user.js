@@ -76,6 +76,7 @@ document.cosmicCat = {
             "gl": "Galego",
             "hr": "Hrvatski",
             "hu": "Magyar",
+            "ja": "日本語",
             "pl": "Polski"
         }
     },
