@@ -113,8 +113,8 @@
              "watch": {
                  "showmore": "Show more",
                  "showless": "Show less",
-                 "like": "Cool",
-                 "dislike": "I don't like it",
+                 "like": "Like",
+                 "dislike": "Dislike",
                  "addto": "Add to",
                  "share": "Share"
              },
