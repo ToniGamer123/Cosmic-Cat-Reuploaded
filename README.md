@@ -6,7 +6,7 @@
     </picture>
 </p>
 
-![](https://img.shields.io/badge/version-0.1-blue?style=flat-square)
+![](https://img.shields.io/badge/version-1.x-blue?style=flat-square)
 
 ## Note
 Ive decided to bring Cosmic Cat back to life, i really loved the userstyle and i tried my best to get it working again, thats why this is here.<br/><br/>
