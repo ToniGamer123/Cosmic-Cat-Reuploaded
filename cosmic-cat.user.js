@@ -2476,16 +2476,14 @@ ${document.cosmicCat.Template.Buttons.addTo(data.id)}
 </div>
 </div>
 <div id="disclaimer">Cosmic Cat Reuploaded v${GM_info.script.version}
-Reuploaded by Toni
-___________________________________
-Made with ♥ by Thistle Café -
-and its contributors.</div>
+The Brand new Cosmic Cat.</div>
 </div>
 <div class="guide-background" style="top: 0"></div>
 <div id="feed" style="width: 790px;">
 ${document.cosmicCat.Template.Settings.Feeds.General()}
 ${document.cosmicCat.Template.Settings.Feeds.Home()}
 ${document.cosmicCat.Template.Settings.Feeds.Channel()}
+${document.cosmicCat.Template.Settings.Feeds.Language()}
 ${document.cosmicCat.Template.Settings.Feeds.Player()}
 ${document.cosmicCat.Template.Settings.Feeds.Credits()}
 </div>
@@ -2548,6 +2546,27 @@ Channel revision: <select class="cosmic-cat-settings" id="channelMode" data-acti
 <option value="3">3.0</option>
 <option value="2">2.0</option>
 <option value="1">1.0 [Unstable]</option>
+</select>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>`;
+                },
+                Language: () => {
+                    return `<div id="feed-main-channel" class="individual-feed hid">
+<div class="feed-container">
+<div class="feed-page">
+<ul class="array" style="user-select: none;">
+<li>
+<div class="feed-item-container">
+<div class="feed-item-main">
+Language: <select class="cosmic-cat-settings" id="language" data-action="toggleLanguage" data-storage="channel_mode" title="Set Language">
+<option value="en">English</option>
+<option value="hr">Croatian</option>
+<option value="pl">Polish</option>
 </select>
 </div>
 </div>
