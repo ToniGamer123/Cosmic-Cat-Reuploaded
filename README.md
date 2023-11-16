@@ -9,7 +9,7 @@
 ![](https://img.shields.io/badge/version-0.1-blue?style=flat-square)
 
 ## Note
-Ive decided to reupload this since its gone, i really loved the userstyle and i want it back, thats why this is here.<br/><br/>
+Ive decided to bring Cosmic Cat back to life, i really loved the userstyle and i tried my best to get it working again, thats why this is here.<br/><br/>
 
 You can access Cosmic Cat settings through the masthead or directly from this link (`youtube.com/cosmic_cat`):<br/>
 
@@ -17,6 +17,13 @@ You can access Cosmic Cat settings through the masthead or directly from this li
 ## Installation
 - Get **Tampermonkey** for your browser: https://www.tampermonkey.net<br/>
 - Click here to open up the install prompt (requires **Tampermonkey**): [cosmic-cat.user.js](https://github.com/ToniGamer123/Cosmic-Cat-Reuploaded/raw/main/cosmic-cat.user.js)
+
+## Acknowledgements/Credits
+| Language | Author |
+| ------------- | ------------- |
+| English | [YouTube] |
+| Croatian | [Toni](https://github.com/ToniGamer123) |
+| Polish | [Vexorion Real](https://github.com/VexorionReal) |
 
 ## Acknowledgements/Credits
 | Name | Author | License |
