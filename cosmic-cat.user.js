@@ -3227,7 +3227,7 @@ ${data.primary.title}
                 videoCon: () => {
                     return `<div id="watch-video-container">
 <div id="watch-video">
-<iframe href="//www.youtube.com/watch?v=${data.id}" data-videoid="1${data.id}" class="embedded-video-large" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Embed videos and playlists" width="640" height="400" src="https://www.youtube.com/embed/1${data.id}?autoplay=1&amp;cc_lang_pref=en&amp;cc_load_policy=1&amp;controls=2&amp;rel=0&amp;hl=en&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fsupport.google.com&amp;widgetid=1" id="widget2"></iframe>
+<iframe href="//www.youtube.com/watch?v=1${data.id}" data-videoid="1${data.id}" class="embedded-video-large" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Embed videos and playlists" width="640" height="400" src="https://www.youtube.com/embed/1${data.id}?autoplay=1&amp;controls=2&amp;rel=0&amp;widgetid=1" id="widget2"></iframe>
 </div>
 </div>`;
                 },
