@@ -2581,7 +2581,7 @@ Channel revision: <select class="cosmic-cat-settings" id="channelMode" data-acti
 <pre style="text-align: center;overflow-y: auto;">
 <h1>Cosmic Cat Reuploaded v${GM_info.script.version}</h1>
 <h3>==== Toni ====</h3>
-cool guy that reuploaded this
+The Person that bringed Cosmic Cat back to life.
 <h3>==== Thistle Café ====</h3>
 Lead Developer -
 <a href="https://github.com/xEm1r1Fl0areax" target="_blank">Emiri Floarea</a>
@@ -2610,6 +2610,7 @@ StackOverflow Code Solutions -
 <a href="https://stackoverflow.com" target="_blank">StackOverflow</a>
 
 <h3>==== Translators ====</h3>
+<a href="https://github.com/ToniGamer123" target="_blank">Toni (Croatian)</a>
 <a href="https://github.com/VexorionReal" target="_blank">Vexorion Real (Polish)</a>
 
 
