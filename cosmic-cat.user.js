@@ -6001,7 +6001,7 @@ margin-left:16px
                 assets: {
                     css: "//s.ytimg.com/yts/cssbin/www-player-vfluwFMix.css",
                     js: "//s.ytimg.com/yts/jsbin/html5player-en_US-vfln6g5Eq/html5player.js",
-                    html: "///github.com/ToniGamer123/Cosmic-Cat-Reuploaded/html5_player_template.html"
+                    html: "//github.com/ToniGamer123/Cosmic-Cat-Reuploaded/html5_player_template"
                 },
                 attrs: {
                     id: "movie_player"
