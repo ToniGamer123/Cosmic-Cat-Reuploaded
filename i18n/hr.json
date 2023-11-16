@@ -1,0 +1,245 @@
+{
+    "language": "hr",
+    "author": "Toni",
+    "json": {
+        "footer": {
+            "about": "O Nama",
+            "press": "Press & Blogovi",
+            "copyright": "Autorska prava",
+            "creators": "Kreatori & partneri",
+            "advertising": "Reklamiranje",
+            "dev": "Programeri",
+            "terms": "Odredbe",
+            "privacy": "Privatnost",
+            "safety": "Sigurnost",
+            "feedback": "Send feedback",
+            "testtube": "Isprobaj nešto novo!"
+        },
+        "global": {
+            "browse": "Istraži",
+            "upload": "Prenesi",
+            "help": "Pomoć",
+            "loading": {
+                "main": "Učitavanje...",
+                "comment": "Učitavanje komentara",
+                "suggestions": "Učitavanje više prijedloga..."
+            },
+            "channel": "Kanal",
+            "seeall": "vidi sve",
+            "search": "Pretraži",
+            "browsechannels": "Istraži kanale"
+        },
+        "playlists": {
+            "header": {
+                "channelAuthor": "%s"
+            },
+            "body": {
+                "primaryPane": {
+                    "items": {
+                        "video": {
+                            "by":"%s"
+                        }
+                    }
+                },
+                "secondaryPane": {
+                    "aboutSection": {
+                        "about": "O %s-u",
+                        "creatorLinks": {
+                            "playlists": "%s popisi za reprodukciju autora %r",
+                            "videos": "Vidi sve videozapise"
+                        }
+                    }
+                }
+            }
+        },
+        "channels": {
+            "3": {
+                "creatorBar": {
+                    "analytics": "Analitika",
+                    "videomanager": "Video Manager",
+                    "settings": "Postavke Kanala"
+                },
+                "header": {
+                    "stats": {
+                        "subscriber": "pretplatnik",
+                        "subscribers": "pretplatnika",
+                        "videoview": "video pregled",
+                        "videoviews": "video pregleda"
+                    },
+                    "tabs": {
+                        "featured": "Istaknuto",
+                        "videos": "Istraži videozapise",
+                        "search": "Traži kanal"
+                    }
+                },
+                "body": {
+                    "secondaryPane": {
+                        "userProfile": {
+                            "about": "O %s-u",
+                            "createdBy": {
+                                "by": "%s"
+                            }
+                        }
+                    }
+                }
+            },
+            "2": {
+                "modules": {
+                    "userProfile": {
+                        "title": "Profil",
+                        "cards": {
+                            "name": "Ime:",
+                            "views": "Pregleda:",
+                            "joined": "Pridružio:",
+                            "country": "Država:",
+                            "description": " "
+                        }
+                    }
+                }
+            }
+        },
+        "search": {
+            "playlists": {
+                "by": "%s"
+            },
+            "channels": {
+                "by": "%s"
+            }
+        },
+        "stats": {
+            "likesdislikes": "%s lajkova, %r dislajkova"
+        },
+        "buttons": {
+            "watch": {
+                "showmore": "Prikaži više",
+                "showless": "Prikaži manje",
+                "like": "Like",
+                "dislike": "Dislike",
+                "addto": "Dodaj na",
+                "share": "Podijeli"
+            },
+            "subscribe": {
+                "subscribe": "Pretplati",
+                "subscribed": "Pretplaćeni",
+                "unsubscribe": "Otkaži pretplatu"
+            },
+            "suggestions": {
+                "loadmoresuggestions": "Učitaj više prijedloga"
+            },
+            "comments": {
+                "post": "Objavi"
+            },
+            "showmore": "Prikaži više",
+            "showless": "Prikaži manje",
+            "signin": "Prijava"
+        },
+        "suggestions": {
+            "loading": "Učitavanje više prijedloga..."
+        },
+        "tooltip": {
+            "watch": {
+                "ilikethis": "Meni se ovo sviđa",
+                "idislikethis": "Meni se ovo ne sviđa",
+                "addto": "Dodajte u favorite ili popis za reprodukciju",
+                "share": "Podijelite ili ugradite ovaj video",
+                "flag": "Označi kao neprikladno",
+                "statistics": "Prikaži video statistiku",
+                "clicktobe": "Kliknite za primanje obavijesti o novim videozapisima s ovog kanala",
+                "transcript": "Interaktivni transkript"
+            },
+            "channels2": {
+                "subscribe": {
+                    "subscribe": "Kliknite za primanje obavijesti o novim videozapisima s ovog kanala",
+                    "subscribed": " "
+                }
+            }
+        },
+        "watch": {
+            "watchInfo": {
+                "category": "Kategorija:",
+                "tags": "Oznake:",
+                "license": "Licenza:"
+            },
+            "comments": {
+                "charactersremain": "%s znakova preostalo",
+                "secondsremain": "Još %s sekunde prije nego što možete objaviti",
+                "loading": "Učitavanje komentara...",
+                "allcomments": "Svi Komentari",
+                "topcomments": "Najbolji komentari",
+                "respond": "Odgovorite na ovaj video..."
+            },
+            "tags": "Oznake",
+            "license": "Licenza",
+            "uploaderinfo": "Prenio %s na %r",
+            "category": "Kategorija",
+            "from": "Od: %s",
+            "by": "%s"
+        },
+        "home": {
+            "feed": {
+                "uploadedavideo": "%s je prenio videozapis",
+                "islive": "%s je uživo"
+            }
+        },
+        "uploadmonth": {
+            "jan": "Sij",
+            "feb": "Velj",
+            "mar": "Ožu",
+            "apr": "Tra",
+            "may": "Svi",
+            "jun": "Lip",
+            "jul": "Srp",
+            "aug": "Kol",
+            "sep": "Ruj",
+            "oct": "Lis",
+            "nov": "Stu",
+            "dec": "Pro"
+        },
+        "about": {
+            "country": "Država:",
+            "membersince": "Pridružio:",
+            "viewedcounts": "Pregleda:",
+            "viewedcount": "Pregled:",
+            "sub": "Pretplatnik:",
+            "subs": "Pretplatnika:"
+        },
+        "customtag": {
+            "age": "Dob:",
+            "occupation": "Okupacija:"
+        },
+        "personal": {
+            "mychannel": "Moj kanal",
+            "videos": "Videozapisi",
+            "likes": "Lajkovi",
+            "history": "Povijest",
+            "watchlater": "Gledaj kasnije",
+            "videomanager": "Video Manager",
+            "youtubesettings": "YouTube postavke",
+            "subscriptions": "Pretplate",
+            "profile": "Profil",
+            "privacy": "Privatnost",
+            "settings": "Postavke",
+            "signout": "Odjavi",
+            "switchaccount": "Promijeni račun",
+            "googleaccount": "Google račun"
+        },
+        "browse": {
+            "mostviewed": "Najpregledanije danas",
+            "recommended": "Preporučeno za tebe"
+        },
+        "guide": {
+            "fromyt": "Od YouTube-a",
+            "trending": "U trendu",
+            "popular": "Popularno",
+            "music": "Glazba",
+            "live": "Uživo",
+            "gadgets": "Igre",
+            "gaming": "Igre",
+            "film": "Film & Animacija",
+            "news": "Vijesti",
+            "sports": "Sport",
+            "education": "Edukacija",
+            "howto": "Kakoda & Stil"
+        }
+    }
+}
